@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1525121852 source:e:\year 2\c programming\code\assignment - tic tac toe\game.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"game.h"
+
+1523619038 
+
+1526390766 e:\year 2\c programming\code\assignment - tic tac toe\game.h
+
+1523619038 source:e:\year 2\c programming\code\assignment - tic tac toe\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1525121852 source:/media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Tic Tac Toe/game.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"game.h"
+
+1526390908 /media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Tic Tac Toe/game.h
+
+1526842911 source:/media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Tic Tac Toe/main.c
+	<stdio.h>
+	<stdlib.h>
+	"game.h"
+

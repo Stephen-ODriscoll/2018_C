@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1520863476 source:e:\year 2\c programming\code\assignment - palindrome\palindrome\pal.c
+	<stdio.h>
+	<stdlib.h>
+	"pal.h"
+	"useful.h"
+	<time.h>
+
+1520619674 
+
+1521198750 source:e:\year 2\c programming\code\assignment - palindrome\palindrome\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pal.h"
+
+1520619674 e:\year 2\c programming\code\assignment - palindrome\palindrome\pal.h
+	"useful.h"
+
+1520278314 e:\year 2\c programming\code\assignment - palindrome\palindrome\useful.h
+
+1520433790 source:e:\year 2\c programming\code\assignment - palindrome\palindrome\useful.c
+
+1521198906 source:e:\year 2\c programming\code\palindrome\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pal.h"
+
+1520619674 e:\year 2\c programming\code\palindrome\pal.h
+	"useful.h"
+
+1520278314 e:\year 2\c programming\code\palindrome\useful.h
+
+1520433790 source:e:\year 2\c programming\code\palindrome\useful.c
+
+1521198906 source:e:\year 2\c programming\code\assignment - palindrome\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pal.h"
+
+1520619674 e:\year 2\c programming\code\assignment - palindrome\pal.h
+	"useful.h"
+
+1520278314 e:\year 2\c programming\code\assignment - palindrome\useful.h
+
+1521199352 source:e:\year 2\c programming\code\assignment - palindrome\pal.c
+	<stdio.h>
+	<stdlib.h>
+	"pal.h"
+	"useful.h"
+	<time.h>
+
+1520433790 source:e:\year 2\c programming\code\assignment - palindrome\useful.c
+
+1526847531 source:/media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Palindrome/main.c
+	<stdio.h>
+	<stdlib.h>
+	"pal.h"
+
+1520616074 /media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Palindrome/pal.h
+	"useful.h"
+
+1526847511 /media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Palindrome/useful.h
+
+1526847515 source:/media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Palindrome/useful.c
+
+1526847499 source:/media/coderdojo/R00146853/Year 2/C Programming/Code/Assignment - Palindrome/pal.c
+	<stdio.h>
+	<stdlib.h>
+	"pal.h"
+	"useful.h"
+	<time.h>
+
