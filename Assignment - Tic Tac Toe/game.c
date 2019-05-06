@@ -257,18 +257,34 @@ void  process_move(struct game* p_game_info, int* moves) {
 
 void check_finished(struct game* p_game_info, int* moves) {
 
+    // Divide each row into boxes of however many is required to win
+    // Example:  6x6 with 3 to win. We check the 3x3 of rows 1, 2 & 3 and column 1, 2 & 3 for a winner
+    //           Next we check the 3x3 of rows 1, 2 & 3 and column 2, 3 & 4 for winner.
+    //           Iterate through all possible 3x3s that can be made with rows 1, 2 & 3 then repeat for rows 2, 3 & 4.
+    //           We do this until we have checked every possible 3x3. If it was 4 required to win we would divide the board
+    //           into all possible 4x4s and check for winners.
+
+    // Calculate how many checks we need to do
     int rowCheck = numRow - toWin + 1;
     int colCheck = numCol - toWin + 1;
     int i, x, y, a, b;
     char SYMBOL = X_SYMBOL;
     boolean winner = False;
 
+    // 2 Players
     for(i = 0; i < 2; ++i) {
 
+        // Check rows
         for(a = 0; a < rowCheck; ++a) {
 
+            // Check columns
             for(b = 0; b < colCheck; ++b) {
 
+                // From here we're just checking all possible combinations in a box of length and height being however many is required to win.
+                // We check if each row has all the same symbols (rows are x), and we check if each column has all the same symbols (columns are y)
+                // Then we check the 2 possible diagonals and we're done.
+
+                // Check rows
                 for(x = 0; x < toWin; ++x) {
 
                     winner = True;
@@ -281,6 +297,7 @@ void check_finished(struct game* p_game_info, int* moves) {
                         set_winner(p_game_info, SYMBOL);
                 }
 
+                // Check columns
                 for(y = 0; y < toWin; ++y) {
 
                     winner = True;
@@ -295,6 +312,7 @@ void check_finished(struct game* p_game_info, int* moves) {
 
                 winner = True;
 
+                // Check diagonal
                 for(x = 0; x < toWin; ++x)
                     if(p_game_info->board[x + a][x + b] != SYMBOL)
                             winner = False;
@@ -304,6 +322,7 @@ void check_finished(struct game* p_game_info, int* moves) {
 
                 winner = True;
 
+                // Check other diagonal
                 for(x = 0; x < toWin; ++x)
                     if(p_game_info->board[x + a][(toWin - x - 1) + b] != SYMBOL)
                             winner = False;
