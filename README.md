@@ -6,7 +6,7 @@ I have created two programs during my C module, a palindrome game and a tic-tac-
 
 A palindrome is a number that is the exact same when reversed, e.g. 121, 2332, 42524.
 The aim of this game is to turn the initial number into a palindrome in as little goes as possible.
-You can add or take one from any number and this counts as a go.
+One go consists of adding or taking one from any single number.
 This game can be started by running 2018_C_StephenODriscoll\Assignment - Palindrome\bin\Debug\Palindrome.exe
 
 ## Tic-tac-toe
